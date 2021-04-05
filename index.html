@@ -42,33 +42,34 @@
 
 		<h2>@lists</h2>
 		<h3>unodered list</h3>
-		<ul>
+		<p>This will not have bullets</p>
+		<ul class="list-non-bullet">
 			<li>lvl zero</li>
 			<li>lvl one</li>
 			<li>lvl two</li>
 		</ul>
 		<h3>unodered inline list</h3>
-		<ul>
-			<li>Inline item one</li>
-			<li>Inline item two</li>
-			<li>Inline item three</li>
+		<ul class="list-non-bullet">
+			<li class="list-item-inline">Inline item one</li>
+			<li class="list-item-inline">Inline item two</li>
+			<li class="list-item-inline">Inline item three</li>
 		</ul>
 		<h3>reverse ordered list</h3>
-		<ol>
+		<ol reversed>
 			<li>click</li>
 			<li>camera</li>
 			<li>unlock</li>
 		</ol>
 		<hr />
 		<h2>@nav</h2>
-		<div>Shehriyar</div>
-		<nav>
-			<ul>
-				<li>
-					<a href="/">Projects</a>
-					<a href="/">Blogs</a>
-					<a href="/">About</a>
+		<nav class="nav">
+			<div class="brand">Shehriyar</div>
+			<ul class="list-non-bullet nav-pills">
+				<li class="list-item-inline"><a href="/" class="link">Projects</a></li>
+				<li class="list-item-inline">
+					<a href="/" class="link link-active">Blogs</a>
 				</li>
+				<li class="list-item-inline"><a href="/" class="link">About</a></li>
 			</ul>
 		</nav>
 
