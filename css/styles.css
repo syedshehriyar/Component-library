@@ -97,7 +97,7 @@ hr {
 	text-align: center;
 }
 .section .section-details {
-	/* line-height: 1.5rem; */
+	line-height: 1.5rem;
 }
 .ow {
 	background-color: var(--secondary-color);
