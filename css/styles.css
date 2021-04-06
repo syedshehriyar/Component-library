@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 
 :root {
-	--priamry-color: #bf344e;
+	--priamry-color: #407bff; /*#bf344e*/
 	--secondary-color: #f2f4fb;
 	--dark-gray: #9593a4;
 }
@@ -72,6 +72,7 @@ hr {
 
 .hero {
 	padding: 2rem;
+	padding-top: 5rem;
 }
 .hero .hero-img {
 	max-width: 350px;
@@ -123,4 +124,10 @@ hr {
 
 .footer ul {
 	padding-inline-start: 0px;
+}
+
+/* spaces*/
+
+.padding-md {
+	padding: 2rem;
 }
