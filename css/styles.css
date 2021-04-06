@@ -7,6 +7,7 @@
 }
 body {
 	font-family: "Raleway", sans-serif;
+	margin: 0px;
 }
 hr {
 	padding: 1rem 0rem;
@@ -50,7 +51,7 @@ hr {
 	background-color: var(--priamry-color);
 	color: var(--secondary-color);
 	padding: 1rem;
-	border-top-left-radius: 0.5rem;
+	border-bottom-left-radius: 0.5rem;
 }
 .nav .brand {
 	font-weight: bold;
@@ -81,7 +82,6 @@ hr {
 	color: var(--dark-gray);
 	padding-top: 1rem;
 	text-align: center;
-	font-size: x-large;
 }
 
 .hero .hero-heading .hero-heading-focus {
@@ -90,4 +90,37 @@ hr {
 
 /* sections */
 
-.
+.section {
+	padding: 2rem;
+}
+.section h1 {
+	text-align: center;
+}
+.section .section-details {
+	/* line-height: 1.5rem; */
+}
+.ow {
+	background-color: var(--secondary-color);
+}
+
+/* footer */
+
+.footer {
+	background-color: var(--priamry-color);
+	border-bottom-right-radius: 1rem;
+	padding: 1rem;
+	text-align: center;
+	margin-top: 2.5rem;
+}
+.footer .link {
+	color: var(--secondary-color);
+}
+.footer-heading {
+	font-size: larger;
+	font-weight: bold;
+	color: var(--secondary-color);
+}
+
+.footer ul {
+	padding-inline-start: 0px;
+}
