@@ -131,3 +131,7 @@ hr {
 .padding-md {
 	padding: 2rem;
 }
+.blog-heading {
+	text-decoration: none;
+	color: black;
+}
